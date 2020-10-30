@@ -1,0 +1,36 @@
+{
+  "name": "video-url-link",
+  "version": "0.1.4",
+  "description": "Get Video Download URL, Catch Video From Any Site.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha --timeout 20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcto/video-url-link.git"
+  },
+  "keywords": [
+    "video downloader",
+    "youtube",
+    "抖音",
+    "快手",
+    "instagram",
+    "facebook",
+    "twitter"
+  ],
+  "author": "catcto (https://github.com/catcto)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catcto/video-url-link/issues"
+  },
+  "homepage": "https://github.com/catcto/video-url-link#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.13",
+    "request": "^2.88.0"
+  }
+}
